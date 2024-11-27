@@ -29,6 +29,8 @@ C'est la façon dont elle est utilisée, soit dans une fonction ou soit dans tou
 C'est une valeur qui n'est pas vouée à changer contrairement à une variable
 
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
+C'est une variable pré définie comme $_GET,$_POST et $_SESSION en PHP
+
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
@@ -58,6 +60,8 @@ Language de programmation pour créer des interactions dynamiques
 25.	Qu’est-ce qu’une requête AJAX ?
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
 27.	Définir le responsive design
+C'est le format téléphone/tablette selon la taille de l'écran
+
 28.	Qu’est-ce que le templating ?
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
@@ -79,12 +83,14 @@ Le handicape
 40.	Qu’est-ce qu’une grille de mise en page ?
 41.	Qu’est-ce que la notion d’affordance en UX Design ?
 42.	Qu’est-ce qu’un « mobile first design » ?
+C'est de crée le design pour le mobile avant la version deskop
 
 ## Programmation orientée objet (POO)
 43.	Donner une définition de la programmation orientée objet 
-c'est une façon de coder ou l'on crée des objets qui mélangent des données et des actions
+c'est une façon de coder ou l'on crée des objets qui mélangent des données et des actions(fonction)
 
 44.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
+
 45.	Qu’est-ce qu’un objet ?
 
 46.	Définir la notion de propriété / attribut / méthode
@@ -108,14 +114,13 @@ L'héritage (Parent Protected //class extend parent// construct::parent)
 53.	Définir le polymorphisme en POO
 54.	Définir une méthode / classe abstraite ?
 55.	Définir le chaînage de méthodes
-$this->
 56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
-Methode magique = fonction native de php
-Quand tu appelle la variable retourne __toString
+le __toString() c'est pour donner des infos légère a une variable sans passer par une fonction(ex:nom,prenom) - Methode magique = fonction native de php
 
 57.	Qu’est-ce qu’un « autoload » ?
 58.	Comment appelle-t-on en français les « getters » et les « setters » ?
-
+Getter = Accesseur (Lire valeur attribut ou objet)
+Setter = Mutateur (Modifier valeur attribut ou objet)
 
 59.	Qu’est-ce que la sérialisation en PHP ? 
 
@@ -180,6 +185,9 @@ h.	Concaténer 2 chaînes de caractères
 ## Sécurité
 94.	Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
 95.	Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
+XSS = Cross-Site Scripting (Injection de code via un formulaire ou le DevTool)
+Une des façons de s'en prémunir est d'utiliser des filtres en PHP (ex :FILTER_SANITIZE_STRING)
+
 96.	Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
 97.	Définir l’attaque par force brute et l’attaque par dictionnaire
 98.	Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
@@ -280,7 +288,7 @@ a.	To render and display web pages <----->
 b.	To execute serve-side code
 c.	To manage databases
 4)	What is the difference between GET and POST methods in HTTP ?
-a.	GET retrieves data from a server, while POST submits data to a server
+a.	GET retrieves data from a server, while POST submits data to a server  <---->
 b.	GET submits data to a server, while POST retrieves data from a server
 c.	GET and POST methods are interchangeable
 5)	What is the purpose of version control systems (e.g., Git) in web development ?
