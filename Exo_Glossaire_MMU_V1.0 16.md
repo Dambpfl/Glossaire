@@ -56,7 +56,11 @@ Language de programmation pour créer des interactions dynamiques
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
 23.	Qu’est-ce qu’un sélecteur CSS ?
+c'est ce qui sert à selectionner un bouton par son id(#) ou sa class(.) par exemple
+
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
+la balise <a href="mon lien"></a>
+
 25.	Qu’est-ce qu’une requête AJAX ?
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
 27.	Définir le responsive design
