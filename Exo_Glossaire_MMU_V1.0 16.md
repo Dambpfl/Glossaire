@@ -32,7 +32,9 @@ C'est une valeur qui n'est pas vouée à changer contrairement à une variable
 C'est une variable pré définie comme $_GET,$_POST et $_SESSION en PHP
 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
+Int (entier), Float (Nb à virgule), String (Chaine de caractères), Boolean (Vrai/Faux)
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+Tableau indexé, associatif, d'objets
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
@@ -40,6 +42,7 @@ C'est une variable pré définie comme $_GET,$_POST et $_SESSION en PHP
 13.	Quelle est la différence entre les instructions « require » et « include » en PHP
 14.	Comment effectuer une redirection en PHP ?
 15.	Définir la partie « front-end » et « back-end » d’une application
+Front-end = Partie que l'utilisateur voit et utilise // Back-end = toute les fonctions/redirections que l'utilisateur ne voit pas
 16.	Définir le contrôle de version ? Qu’est-ce que Git ?
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
