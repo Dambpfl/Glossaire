@@ -36,7 +36,9 @@ Int (entier), Float (Nb à virgule), String (Chaine de caractères), Boolean (Vr
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 Tableau indexé, associatif, d'objets
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+Condition : If/else - Boucle: for/while/foreach - (action unique)switch/case
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+strlen($variable)
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
 12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
 13.	Quelle est la différence entre les instructions « require » et « include » en PHP
@@ -66,6 +68,7 @@ la balise <a href="mon lien"></a>
 
 25.	Qu’est-ce qu’une requête AJAX ?
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
+class(.) / id (#)
 27.	Définir le responsive design
 C'est le format téléphone/tablette selon la taille de l'écran
 
