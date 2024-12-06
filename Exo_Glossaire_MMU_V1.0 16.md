@@ -141,23 +141,29 @@ Setter = Mutateur (Modifier valeur attribut ou objet)
 63.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
 64.	Quels sont les avantages de l’architecture MVC ?
 65.	Existe-t-il des variantes à l’architecture MVC ?
-66.	Qu’est-ce qu’une API ? Définir l’architecture REST
+66.	Qu’est-ce qu’une API ? Définir l’architecture REST (Representational State Transfer)
+permet la communication entre un site web et un serveur dans le cloud // on envoie une requete dans une opération http et lui renvoie une reponse
+requete --> CRUD = POST(CREATE), GET(READ), PUT(Update), DELETE(Delete)
 
 ## Modélisation - Base de données
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
+C'est structurer et organiser les informations - La méthode Merise est une approche en 3 etapes
 68.	Quelles sont les 3 étapes principales de la méthode Merise ? 
-a.	Analyse, conception et réalisation
+a.	Analyse, conception et réalisation <-------->
 b.	Planification, exécution et contrôle
 c.	Création, modification et suppression
 69.	Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
+C'est une carte qui montre les objets importants d'un système (client, produit) et comment ils sont liés.
 70.	Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
+Il montre comment sont organisées et structurées les informations.
 71.	Donner la définition des mots suivants :
-a.	Entité
-b.	Relation
-c.	Cardinalité
-d.	Clé primaire / clé étrangère
+a.	Entité -- L'objet important (client, produit)
+b.	Relation -- Comment deux objet sont liés entre eux (Client peut passer Commande)
+c.	Cardinalité -- Le nombre de fois ou les objets sont liés entre eux (0,n / 1,n / 1,1 / 0,1) valeur min,max(n = plusieurs)
+d.	Clé primaire / clé étrangère 
 72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
 73.	Qu’est-ce qu’une base de données ?
+C'est l'endroit où l'on stocke toutes les informations.
 74.	Définir les notions suivantes : 
 a.	SQL
 b.	MySQL
