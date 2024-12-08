@@ -14,62 +14,88 @@
 
 ## Général
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
+
 Laragon et MAMP(sur mac)
 
 2.	Qu’est-ce qu’un algorithme ?  
+
 C'est la logique qui est utiliser pour concevoir le code
 
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
+
 C'est une valeur (chaine de caractères ou un nombre) que je peux changer a tout moment dans mon programme (php = $)
 
 4.	Qu’est-ce que la portée d’une variable ?
+
 C'est la façon dont elle est utilisée, soit dans une fonction ou soit dans tout le programme
 
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
+
 C'est une valeur qui n'est pas vouée à changer contrairement à une variable
 
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
+
 C'est une variable pré définie comme $_GET,$_POST et $_SESSION en PHP
 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
+
 Int (entier), Float (Nb à virgule), String (Chaine de caractères), Boolean (Vrai/Faux)
+
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+
 Tableau indexé, associatif, d'objets
+
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+
 Condition : If/else - Boucle: for/while/foreach - (action unique)switch/case
+
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+
 strlen($variable)
+
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
 12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
 13.	Quelle est la différence entre les instructions « require » et « include » en PHP
 14.	Comment effectuer une redirection en PHP ?
+
 15.	Définir la partie « front-end » et « back-end » d’une application
+
 Front-end = Partie que l'utilisateur voit et utilise // Back-end = toute les fonctions/redirections que l'utilisateur ne voit pas
+
 16.	Définir le contrôle de version ? Qu’est-ce que Git ?
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
 ## Front-end
 18.	Définir HTML
+
 Language de balisage pour structurer et organiser le contenu
 
 19.	Définir CSS
+
 Language de programmation de mise en page
 
 20.	Définir Javascript
+
 Language de programmation pour créer des interactions dynamiques
 
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+
 23.	Qu’est-ce qu’un sélecteur CSS ?
+
 c'est ce qui sert à selectionner un bouton par son id(#) ou sa class(.) par exemple
 
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
+
 la balise <a href="mon lien"></a>
 
 25.	Qu’est-ce qu’une requête AJAX ?
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
+
 class(.) / id (#)
+
 27.	Définir le responsive design
+
 C'est le format téléphone/tablette selon la taille de l'écran
 
 28.	Qu’est-ce que le templating ?
@@ -82,21 +108,26 @@ C'est le format téléphone/tablette selon la taille de l'écran
 
 ## UX UI
 35.	Quelle est la différence entre UX Design et UI Design ?
+
 Interface utilisateur et Experience utilisateur
 
 36.	Qu’est-ce qu’un wireframe ? 
 37.	Qu’est-ce qu’un prototype ? 
 38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
 39.	Qu’est-ce que l’accessibilité en UX Design ?
+
 Le handicape
 
 40.	Qu’est-ce qu’une grille de mise en page ?
 41.	Qu’est-ce que la notion d’affordance en UX Design ?
+
 42.	Qu’est-ce qu’un « mobile first design » ?
+
 C'est de crée le design pour le mobile avant la version deskop
 
 ## Programmation orientée objet (POO)
 43.	Donner une définition de la programmation orientée objet 
+
 c'est une façon de coder ou l'on crée des objets qui mélangent des données et des actions(fonction)
 
 44.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
@@ -104,32 +135,44 @@ c'est une façon de coder ou l'on crée des objets qui mélangent des données e
 45.	Qu’est-ce qu’un objet ?
 
 46.	Définir la notion de propriété / attribut / méthode
+
 Propriété = Permet d'accéder et de modifier un attribut
+
 Attribut = Variable qui stocke l'information de l'objet (ex : Voiture(Marque/Couleur))
+
 Méthode = Fonction définie dans la class (démarrer/accelerer)
 
 47.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
+
 Private/Protected(heritage) et Public
 
 48.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
+
 $voiture = New Voiture("attribut 1" etc..)
 
 49.	Qu’est-ce que l’encapsulation ?
+
 Proteger les données (private)
 
 50.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
+
 L'héritage (Parent Protected //class extend parent// construct::parent)
+
 51.	Définir l’opérateur de résolution de portée
 52.	Définir une méthode / propriété statique
 53.	Définir le polymorphisme en POO
 54.	Définir une méthode / classe abstraite ?
 55.	Définir le chaînage de méthodes
 56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+
 le __toString() c'est pour donner des infos légère a une variable sans passer par une fonction(ex:nom,prenom) - Methode magique = fonction native de php
 
 57.	Qu’est-ce qu’un « autoload » ?
+
 58.	Comment appelle-t-on en français les « getters » et les « setters » ?
+
 Getter = Accesseur (Lire valeur attribut ou objet)
+
 Setter = Mutateur (Modifier valeur attribut ou objet)
 
 59.	Qu’est-ce que la sérialisation en PHP ? 
@@ -141,29 +184,46 @@ Setter = Mutateur (Modifier valeur attribut ou objet)
 63.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
 64.	Quels sont les avantages de l’architecture MVC ?
 65.	Existe-t-il des variantes à l’architecture MVC ?
+
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST (Representational State Transfer)
+
 permet la communication entre un site web et un serveur dans le cloud // on envoie une requete dans une opération http et lui renvoie une reponse
+
 requete --> CRUD = POST(CREATE), GET(READ), PUT(Update), DELETE(Delete)
 
 ## Modélisation - Base de données
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
+
 C'est structurer et organiser les informations - La méthode Merise est une approche en 3 etapes
+
 68.	Quelles sont les 3 étapes principales de la méthode Merise ? 
 a.	Analyse, conception et réalisation <-------->
 b.	Planification, exécution et contrôle
 c.	Création, modification et suppression
+
 69.	Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
+
 C'est une carte qui montre les objets importants d'un système (client, produit) et comment ils sont liés.
+
 70.	Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
+
 Il montre comment sont organisées et structurées les informations.
+
 71.	Donner la définition des mots suivants :
+
 a.	Entité -- L'objet important (client, produit)
+
 b.	Relation -- Comment deux objet sont liés entre eux (Client peut passer Commande)
+
 c.	Cardinalité -- Le nombre de fois ou les objets sont liés entre eux (0,n / 1,n / 1,1 / 0,1) valeur min,max(n = plusieurs)
+
 d.	Clé primaire / clé étrangère 
 72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
+
 73.	Qu’est-ce qu’une base de données ?
+
 C'est l'endroit où l'on stocke toutes les informations.
+
 74.	Définir les notions suivantes : 
 a.	SQL
 b.	MySQL
@@ -200,8 +260,13 @@ h.	Concaténer 2 chaînes de caractères
 
 ## Sécurité
 94.	Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
+
+C'est une attaque où l'on insère des requêtes SQL. On s'en prémunit en utilisant des requêtes préparées
+
 95.	Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
+
 XSS = Cross-Site Scripting (Injection de code via un formulaire ou le DevTool)
+
 Une des façons de s'en prémunir est d'utiliser des filtres en PHP (ex :FILTER_SANITIZE_STRING)
 
 96.	Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
@@ -215,30 +280,39 @@ Une des façons de s'en prémunir est d'utiliser des filtres en PHP (ex :FILTER_
 
 ## RGPD
 104.	Qu’est-ce que le RGPD ?
+
 Reglementation generale sur la protection des données
 
 105.	Quel est son objectif principal ?
+
 Fixe les conditions de collecte/conservation/exploitation des données
 
 106.	Quelle est la date d’entrée en vigueur du RGPD ?
+
 25 mai 2018
 
 107.	Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
+
 Mise en demeure/amande administrative/Rappel à l'ordre ou formation restreinte
 
 108.	En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
+
 CNIL (Commission nationale de l'informatique et des libertés)
 
 109.	Quel est le consentement valide selon le RPGD ?
+
 Explicite et éclairée
 
 110.	Qu’est-ce qu’une politique de confidentialité ?
+
 Un document expliquant en détail les modalités de traitement des données personnelles dans le cadre d’une relation commerciale
 
 111.	Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
+
 3ans (36mois)
 
 112.	Quels sont les droits des utilisateurs selon le RGPD ?
+
  droits d'information
        - droit d'acces
        - droit de rectification
@@ -251,13 +325,16 @@ nouveaux droits:
        - droit lié a la prise de decision automatisée
 
 113.	Qu’est-ce que le principe de minimisation des données selon le RGPD ?
+
 De collecter le minimum de données possible et de justifier chaque collecte
 
 ## SEO
 114.	Qu’est-ce que le SEO ? 
+
 Search Engine Optimization (Optimisation pour les moteurs de recherche)
 
 115.	Quel est l’objectif principal du SEO ?
+
 Améliorer le référencement d'un site web
 
 116.	Existe-t-il plusieurs types de référencement ? Lesquels ?
