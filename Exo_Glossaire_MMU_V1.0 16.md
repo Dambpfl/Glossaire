@@ -17,53 +17,90 @@
 
 Laragon et MAMP(sur mac)
 
+
 2.	Qu’est-ce qu’un algorithme ?  
 
 C'est la logique qui est utiliser pour concevoir le code
+
 
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
 
 C'est une valeur (chaine de caractères ou un nombre) que je peux changer a tout moment dans mon programme (php = $)
 
+
 4.	Qu’est-ce que la portée d’une variable ?
 
 C'est la façon dont elle est utilisée, soit dans une fonction ou soit dans tout le programme
+
 
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
 
 C'est une valeur qui n'est pas vouée à changer contrairement à une variable
 
+
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
 
 C'est une variable pré définie comme $_GET,$_POST et $_SESSION en PHP
+
 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 
 Int (entier), Float (Nb à virgule), String (Chaine de caractères), Boolean (Vrai/Faux)
 
+
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 
 Tableau indexé, associatif, d'objets
+
 
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
 
 Condition : If/else - Boucle: for/while/foreach - (action unique)switch/case
 
+
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
 
 strlen($variable)
 
+
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
+
+
+Une session est une manière de garder des informations sur un utilisateur pendant qu'il navigue sur un site web (exemple : le panier)
+
+
 12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+
+C'est un fichier que le serveur envoie au navigateur pour stocker les informations sur l'ordinateur ou le téléphone
+Cela permet de se souvenir de l'utilisateur entre ces visite sur un site (nom,prenom,panier)
+
+
 13.	Quelle est la différence entre les instructions « require » et « include » en PHP
+
+Require : Necessaire, si le fichier est introuvable PHP arrête l'éxécution du script
+
+Include : Optionnel, continue le script meme si le fichier est manquant
+
+
 14.	Comment effectuer une redirection en PHP ?
+
+En utilisant header('Location: page_redirection.php');
+
 
 15.	Définir la partie « front-end » et « back-end » d’une application
 
-Front-end = Partie que l'utilisateur voit et utilise // Back-end = toute les fonctions/redirections que l'utilisateur ne voit pas
+Front-end = Partie que l'utilisateur voit et utilise
+
+Back-end = toute les fonctions/redirections que l'utilisateur ne voit pas
+
 
 16.	Définir le contrôle de version ? Qu’est-ce que Git ?
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+
+CMS = Content Management System(Systeme de gestion de contenu), c'est un logiciel qui permet de créer,gérer et modifier le contenu d'un site web sans compétences en programmation
+
+Exemple : WordPress, Drupal
+
 
 ## Front-end
 18.	Définir HTML
@@ -79,15 +116,23 @@ Language de programmation de mise en page
 Language de programmation pour créer des interactions dynamiques
 
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
+
+JSON = JavaScript Object Notation
+
+Il est utilisé pour stocker des informations et échanger les données entre un client et un serveur
+
+
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
 
 23.	Qu’est-ce qu’un sélecteur CSS ?
 
 c'est ce qui sert à selectionner un bouton par son id(#) ou sa class(.) par exemple
 
+
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
 
 la balise <a href="mon lien"></a>
+
 
 25.	Qu’est-ce qu’une requête AJAX ?
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
@@ -372,31 +417,38 @@ Améliorer le référencement d'un site web
 a.	Add interactive behavior and dynamic content   <----------->
 b.	Define the layout and design of web pages
 c.	Handle server-side operations
+
 2)	Which programming language is primarily used for server-side web development ?
 a.	PHP <------>
 b.	JavaScript
 c.	HTML
+
 3)	What is the purpose of a web browser ?
 a.	To render and display web pages <----->
 b.	To execute serve-side code
 c.	To manage databases
+
 4)	What is the difference between GET and POST methods in HTTP ?
 a.	GET retrieves data from a server, while POST submits data to a server  <---->
 b.	GET submits data to a server, while POST retrieves data from a server
 c.	GET and POST methods are interchangeable
+
 5)	What is the purpose of version control systems (e.g., Git) in web development ?
-a.	To track changes and manage collaborative development
+a.	To track changes and manage collaborative development <---->
 b.	To optimize website loading speed
 c.	To handle server-side scripting
+
 6)	What is the purpose of a framework in web development ?
-a.	To provide a structured environment for building web applications
+a.	To provide a structured environment for building web applications <----->
 b.	To handle network protocols and data transfer
 c.	To create visual designs and layouts for websites
+
 7)	What does NoSQL stand for ?
-a.	Not Only SQL
+a.	Not Only SQL <---->
 b.	Non-Structured Query Language
 c.	New Object-Oriented Language
+
 8)	Which of the following is a characteristic of NoSQL databases ?
 a.	Strict schema enforcement
 b.	Support for complex transactions
-c.	Scalability and flexible data models
+c.	Scalability and flexible data models <------>
