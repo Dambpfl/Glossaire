@@ -157,6 +157,9 @@ C'est le format téléphone/tablette selon la taille de l'écran
 Interface utilisateur et Experience utilisateur
 
 36.	Qu’est-ce qu’un wireframe ? 
+
+C'est une maquette du site web avec un visuel simple (sans image, couleur,typographie)
+
 37.	Qu’est-ce qu’un prototype ? 
 38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
 39.	Qu’est-ce que l’accessibilité en UX Design ?
@@ -175,9 +178,18 @@ C'est de crée le design pour le mobile avant la version deskop
 
 c'est une façon de coder ou l'on crée des objets qui mélangent des données et des actions(fonction)
 
+
 44.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
 
+C'est un plan qui sert a crée des objets => Class NomDeLaClasse
+
+
 45.	Qu’est-ce qu’un objet ?
+
+C'est une instance d'une classe avec ses propres attributs
+
+$instance = new Classe('attribut1', 'attribut2'); <=== Ceci est un objet
+
 
 46.	Définir la notion de propriété / attribut / méthode
 
@@ -187,30 +199,37 @@ Attribut = Variable qui stocke l'information de l'objet (ex : Voiture(Marque/Cou
 
 Méthode = Fonction définie dans la class (démarrer/accelerer)
 
+
 47.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
 
 Private/Protected(heritage) et Public
+
 
 48.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
 
 $voiture = New Voiture("attribut 1" etc..)
 
+
 49.	Qu’est-ce que l’encapsulation ?
 
 Proteger les données (private)
 
+
 50.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
 
 L'héritage (Parent Protected //class extend parent// construct::parent)
+
 
 51.	Définir l’opérateur de résolution de portée
 52.	Définir une méthode / propriété statique
 53.	Définir le polymorphisme en POO
 54.	Définir une méthode / classe abstraite ?
 55.	Définir le chaînage de méthodes
+
 56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
 
 le __toString() c'est pour donner des infos légère a une variable sans passer par une fonction(ex:nom,prenom) - Methode magique = fonction native de php
+
 
 57.	Qu’est-ce qu’un « autoload » ?
 
