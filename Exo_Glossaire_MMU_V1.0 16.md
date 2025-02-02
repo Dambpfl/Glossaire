@@ -290,16 +290,38 @@ C'est l'endroit où l'on stocke toutes les informations.
 
 74.	Définir les notions suivantes : 
 a.	SQL
+
+SQL (Structured Query Language) est un language de programmation 
+
 b.	MySQL
+
+MySQL est un systeme de gestion de bases de données relationnelles
+
 c.	SGBD (donner 2 exemples de SGBD)
-75.	Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___
-76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
-77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
-78.	A quoi sert une vue dans une base de données ?
-79.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
-80.	Quelles sont les fonctions d’agrégation en SQL ?
-81.	Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?
-82.	Quelles sont les clauses qui permettent de :
+
+Systeme de gestion de bases de données -> MySQL et PostgreSQL
+
+76.	Dans une base de données, les données sont stockées dans des tables. Celles-ci sont constituées de lignes appelées enregistrements/tuples et de colonnes appelées champs/attributs.
+
+77.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+
+Relationnelle = SQL -> stocke les données sous forme de tables(relation entre les données)
+
+Non relationnelle = NoSQL -> ne stocke pas les données sous forme de tables(pas de relation entre les données)
+
+78.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+
+C'est une opération SQL pour combiner les données de plusieurs tables suivant une condition commune, il en existe 6 types principaux
+INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN, SELF JOIN
+
+79.	A quoi sert une vue dans une base de données ?
+
+C'est une table virtuelle qui stocke une requete SQL(pas de données) qui est éxécutée chaque fois que la vue est utilisée
+
+80.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
+81.	Quelles sont les fonctions d’agrégation en SQL ?
+82.	Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?
+83.	Quelles sont les clauses qui permettent de :
 a.	Insérer un nouvel enregistrement dans une table
 b.	Modifier un enregistrement dans une table
 c.	Supprimer un enregistrement dans une table
@@ -308,7 +330,7 @@ e.	Filtrer les résultats d’une requête SQL
 f.	Trier les résultats d’une requête SELECT
 g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
 h.	Concaténer 2 chaînes de caractères 
-83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+84.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
 
 ## Symfony
 84.	Qu’est-ce que Symfony ?
