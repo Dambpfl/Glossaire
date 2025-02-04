@@ -124,6 +124,8 @@ Il est utilisé pour stocker des informations et échanger les données entre un
 
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
 
+Oui, avec Node.js qui est une plateforme baséé sur le moteur V8 de chrome
+
 23.	Qu’est-ce qu’un sélecteur CSS ?
 
 c'est ce qui sert à selectionner un bouton par son id(#) ou sa class(.) par exemple
@@ -135,6 +137,9 @@ la balise <a href="mon lien"></a>
 
 
 25.	Qu’est-ce qu’une requête AJAX ?
+
+AJAX (Asynchronous JavaScript and XML) c'est une méhode qui permet de charger des données en arriere plan sans recharger la page, ça rends l'application web plus réactive
+
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
 
 class(.) / id (#)
@@ -144,12 +149,35 @@ class(.) / id (#)
 C'est le format téléphone/tablette selon la taille de l'écran
 
 28.	Qu’est-ce que le templating ?
+
+C'est une méthode qui consiste à utiliser des modèles pour générer du contenu dynamique en y injectant des données. On ecrit du code dans une template qui se répete dans les autres vues.
+
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
+
+C'est une fonction qui n'a pas de nom
+
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+
+on utilise push()
+
 31.	Qu’est-ce qu’un « media query » ?
+
+C'est pour définir une taille d'écran en CSS (@media screen and (max-width: 500px))
+
 32.	Qu’est-ce qu’un pseudo élément en CSS ?
+
+C'est pour cibler et styliser un element HTML, qui n'existe pas explicitement, c'est un peu une 'déco magique' (:hover(au passage de la souris l'élément va changer))
+
 33.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
+
+C'est un framework CSS concu par twitter, il y a Tailwind,Foundation,Bulma qui sont également des frameworks CSS
+
 34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
+
+GET = Les données sont envoyées dans l'URL sous forme de parametres, affiche les données dans l'URL 
+
+POST = Les données sont soumis via un formulaire principalement (envoyées dans le corps de la requete HTTP), envoie les données discretement
+
 
 ## UX UI
 35.	Quelle est la différence entre UX Design et UI Design ?
