@@ -95,6 +95,11 @@ Back-end = toute les fonctions/redirections que l'utilisateur ne voit pas
 
 
 16.	Définir le contrôle de version ? Qu’est-ce que Git ?
+
+Le contrôle de version permet de garder toutes les versions précédentes d'un projet en mémoire, de les rappeler en cas de besoin et de travailler en équipe sans écraser le travail des autres.
+
+Git est un système de contrôle de version qui permet à chaque développeur d'avoir son propre espace de travail sans impacter le code principal et de fusionner les modifications proprement à la fin.
+
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
 CMS = Content Management System(Systeme de gestion de contenu), c'est un logiciel qui permet de créer,gérer et modifier le contenu d'un site web sans compétences en programmation
@@ -182,20 +187,31 @@ POST = Les données sont soumis via un formulaire principalement (envoyées dans
 ## UX UI
 35.	Quelle est la différence entre UX Design et UI Design ?
 
-Interface utilisateur et Experience utilisateur
+UI = Interface utilisateur et UX = Experience utilisateur
 
 36.	Qu’est-ce qu’un wireframe ? 
 
 C'est une maquette du site web avec un visuel simple (sans image, couleur,typographie)
 
 37.	Qu’est-ce qu’un prototype ? 
+
+C'est une maquette interactive ou on peux tester la navigation et l'UI
+
 38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
+
+C'est l'organisation des éléments d'une interface pour guider l'utilisateur en mettant en avant les éléments importants.
+
 39.	Qu’est-ce que l’accessibilité en UX Design ?
 
-Le handicape
+rendre une interface utilisable par tout le monde, handicap compris
 
 40.	Qu’est-ce qu’une grille de mise en page ?
+
+C'est un ensemble de lignes/colonnes qui permet d'aligner les éléments de façon correcte
+
 41.	Qu’est-ce que la notion d’affordance en UX Design ?
+
+C'est la façon dont un élément est compréhensible sans explication
 
 42.	Qu’est-ce qu’un « mobile first design » ?
 
