@@ -265,10 +265,30 @@ L'héritage (Parent Protected //class extend parent// construct::parent)
 
 
 51.	Définir l’opérateur de résolution de portée
+
+L’opérateur de résolution de portée :: permet d’accéder aux méthodes et propriétés statiques, aux constantes d’une classe, et aux méthodes héritées d’une classe parente
+
 52.	Définir une méthode / propriété statique
+
+C'est une propriété que tout le monde peut lire et modifier sans devoir créer un nouvel objet à chaque fois
+
 53.	Définir le polymorphisme en POO
+
+Le polymorphisme permet d’utiliser un même nom de méthode, mais avec un comportement différent selon l’objet (exemple: function crier() => change selon l'animal(class))
+
 54.	Définir une méthode / classe abstraite ?
+
+Classe abstraite :
+C’est une base qui pose des règles générales pour d’autres classes, mais elle ne peut pas être utilisée directement. Les classes qui l’héritent doivent compléter les détails
+C'est le livre de recettes -> donne les instructions générales
+
+Méthode abstraite:
+C’est une instruction qui ne fait rien toute seule, mais qui définit une action à réaliser dans les classes enfants. Ces dernières doivent ajouter leur propre comportement pour que ça fonctionne
+C'est une recette à completer -> chaque chef doit ajouter sa propre façon de faire
+
 55.	Définir le chaînage de méthodes
+
+C'est quand un objet a plusieurs méthodes et qu'on veut toutes les appeler une après l'autre, sans appeler l'objet à chaque fois
 
 56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
 
@@ -276,6 +296,8 @@ le __toString() c'est pour donner des infos légère a une variable sans passer 
 
 
 57.	Qu’est-ce qu’un « autoload » ?
+
+C'est une fonction qui permet de charger automatiquement les fichiers d'une classes sans avoir a le faire manuellement avec include ou require
 
 58.	Comment appelle-t-on en français les « getters » et les « setters » ?
 
@@ -285,13 +307,45 @@ Setter = Mutateur (Modifier valeur attribut ou objet)
 
 59.	Qu’est-ce que la sérialisation en PHP ? 
 
+ça permet de convertir un objet en string pour pouvoir le sauvegarder et le réutiliser plus tard en tant qu'objet
+
 ## Architecture 
 60.	Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence
+
+Le client envoie les requete de l'utilisateur et le serveur lui reponds avec les données stocker dans la bdd
+
+Requete => GET,POST,PUT,DELETE
+
+HTTP = HyperText Transfer Protocol => le client communique avec le serveur
+
+HTTPS = HyperText Transfer Protocol Secure => chiffre la communication entre le client et le serveur
+
+
 61.	Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern
+
+C'est un ensemble de méthodes déja créer qui peuvent etre réutiliser
+
+Singleton, Factory Method, Observer
+
 62.	Qu’est-ce que l’architecture MVC ?
+
+Model-View-Controller c'est une façon d'organiser son code en triant les informations/vues dans des dossiers pour s'y retrouver plus facilement
+
 63.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
+
+Model => gere les données et la logique métier (Manager => requete SQL)
+
+View => affiche les données et les boutons d'interactions
+
+Controller => on y ecrit les méthodes qui vont gerer les interactions de l'utilisateur
+
 64.	Quels sont les avantages de l’architecture MVC ?
+
+ça facilite la compréhension du code, car chaque dossier a une fonction c'est donc plus facile de s'y retrouver
+
 65.	Existe-t-il des variantes à l’architecture MVC ?
+
+Oui, MVP (Model View Presenter), MVU (Model Update View)
 
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST (Representational State Transfer)
 
@@ -319,14 +373,28 @@ Il montre comment sont organisées et structurées les informations.
 
 71.	Donner la définition des mots suivants :
 
-a.	Entité -- L'objet important (client, produit)
+a.	Entité 
 
-b.	Relation -- Comment deux objet sont liés entre eux (Client peut passer Commande)
+ L'objet important (client, produit)
 
-c.	Cardinalité -- Le nombre de fois ou les objets sont liés entre eux (0,n / 1,n / 1,1 / 0,1) valeur min,max(n = plusieurs)
+b.	Relation 
 
-d.	Clé primaire / clé étrangère 
+ Comment deux objet sont liés entre eux (Client peut passer Commande)
+
+c.	Cardinalité 
+
+ Le nombre de fois ou les objets sont liés entre eux (0,n / 1,n / 1,1 / 0,1) valeur min,max(n = plusieurs)
+
+d.	Clé primaire / clé étrangère
+
+Primaire => c'est un identifiant unique pour chaque objet/element
+
+Etrangere => C'est le lien qui relie deux tables ensemble
+
+
 72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
+
+Elle devient une relation OneToMany avec une table associatif
 
 73.	Qu’est-ce qu’une base de données ?
 
