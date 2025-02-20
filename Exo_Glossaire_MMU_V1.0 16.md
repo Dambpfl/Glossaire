@@ -433,30 +433,103 @@ INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN, SELF JOIN
 C'est une table virtuelle qui stocke une requete SQL(pas de données) qui est éxécutée chaque fois que la vue est utilisée
 
 79.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
+
+L'intégrité référentielle garantit qu'une information liée entre deux tables reste toujours cohérente : on ne peut pas avoir une commande associée à un client qui n'existe pas
+
 80.	Quelles sont les fonctions d’agrégation en SQL ?
+
+COUNT(), SUM(), AVG(), MIN(), MAX()
+
 81.	Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?
+
+Create -> Ajouter une nouvelle donnée
+Read -> Récupérer des données
+Update -> Modifier une donnée
+Delete -> Supprimer une donnée
+
 82.	Quelles sont les clauses qui permettent de :
 a.	Insérer un nouvel enregistrement dans une table
+
+INSERT INTO
+
 b.	Modifier un enregistrement dans une table
+
+UPDATE SET 
+
 c.	Supprimer un enregistrement dans une table
+
+DELETE FROM
+
 d.	Supprimer la base de données
+
+DROP DATABASE
+
 e.	Filtrer les résultats d’une requête SQL
+
+WHERE
+
 f.	Trier les résultats d’une requête SELECT
+
+ORDER BY
+
 g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
+
+GROUP BY
+
 h.	Concaténer 2 chaînes de caractères 
+
+CONCAT(nom, ' ', prenom) AS nom_complet
+
 83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+
+Avec la classe native PDO (PHP Data Objects)
+
+$pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password)
+
+
 
 ## Symfony
 84.	Qu’est-ce que Symfony ?
+
+C'est un framework PHP open-source, architecture MVC (Model-View-Controller)
+
 85.	Sur quel langage de programmation et design pattern repose Symfony ? 
+
+PHP -> MVC(Model-View-Controller)
+
 86.	Quelle est la dernière version en date de Symfony ?
+
+Version 7.2.3 de novembre 2024
+
 87.	Qu’est-ce qu’un bundle ? 
+
+C'est un ensemble de functionnalités réutilisables, qui peut etre ajouté à une application
+
 88.	Quel est le moteur de template utilisé par défaut dans Symfony ?
+
+c'est Twig
+
 89.	Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
+
+ORM(Object-Relational Mapping) technique pour manipuler des BDD en utilisant des objets (crée automatiquement les requetes SQL, CRUD)
+
 90.	Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
+
+L'injection de dépendances permet de fournir des objet necessaires à une classe via le conteneur de services dans symfony
+
+les dépendances sont dans le ficher services.yaml
+
 91.	Que permet le bundle Maker au sein de Symfony ? 
+
+Ce sont des commandes à rentrée dans la console qui permet de generer automatiquement des composant de base, Entity, Controllers, FormType
+
 92.	Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+
+DQL (Doctrine Query Language) -> version orientée objet de SQL
+
 93.	Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+
+Le Security Component configuré dans le fichier security.yaml
 
 ## Sécurité
 94.	Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
