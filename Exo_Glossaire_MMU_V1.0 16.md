@@ -543,13 +543,58 @@ XSS = Cross-Site Scripting (Injection de code via un formulaire ou le DevTool)
 Une des façons de s'en prémunir est d'utiliser des filtres en PHP (ex :FILTER_SANITIZE_STRING)
 
 96.	Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
+
+Cross-Site Request Forgery c'est une attaque qui consiste à piéger une action d'un autre utilisateur connecter à son insu
+
+exemple: il clique sur un lien piéger qui execute une requete sans son consentement 
+
+Contre -> Utiliser un token CSRF pour s'assurer que la demande viens bien de l'utilisateur légitime
+
 97.	Définir l’attaque par force brute et l’attaque par dictionnaire
+
+Force brute -> Tester toute les combinaisons possible à l'aide d'un programme jusqu'à trouver la bonne
+
+dictionnaire -> Test une liste de mots couramment utilisés comme mot de passe
+
+
 98.	Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
+
+RCE (Remote Code Execution) -> Exécution de commandes sur le serveur.
+
+MITM (Man-In-The-Middle) -> Espionner/modifier les échanges entre client et serveur.
+
+Clickjacking -> Tromper un utilisateur en cachant des actions sous un faux bouton.
+
+DDoS (Déni de service) -> Saturer un serveur avec des requêtes.
+
+Credential Stuffing -> Utiliser des mots de passe volés sur d’autres sites.
+
 99.	A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
+
+authentification -> Vérifie l'identité de l'utilisateur
+
+autorisation -> Definie les permissions de l'utilisateur (admin, utilisateur)
+
 100.	Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
+
+Le hachage transforme un mot de passe en une chaîne fixe et irréversible, permettant de le stocker de façon sécurisée sans le récupérer.
+
+Hachage fort : Bcrypt et Argon2
+
+Hachage faible : SHA-256 et MD5
+
+
 101.	Qu’est-ce qu’une politique de mots de passe forts ?
+
+Elle impose que les mot de passe soient long, complexes et difficiles à deviner
+
 102.	Qu’est-ce que l’hameçonnage ?
+
+L'attaquant ce fait passer pour une organisation légitime (banque,service en ligne etc..) afin de tromper l'utilisateur et de récupérer des informations sensible
+
 103.	Définir la « validation des entrées »
+
+Ce sont des filtres qui s'assure que les caracteres entrée dans un formulaire soit bien comforme à ce qui est demandé 
 
 ## RGPD
 104.	Qu’est-ce que le RGPD ?
