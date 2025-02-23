@@ -656,12 +656,35 @@ Search Engine Optimization (Optimisation pour les moteurs de recherche)
 Améliorer le référencement d'un site web
 
 116.	Existe-t-il plusieurs types de référencement ? Lesquels ?
+
+SEO -> référencement naturel (Vocal, mobile, vidéo, local)
+
+SEA -> référencement payant (ex: publicité)
+
 117.	Qu’est-ce que la densité de mots-clés en SEO ?
+
+c'est le pourcentage de fois qu'un mot-clé apparaît dans un texte par rapport au nombre total de mots
+
 118.	Qu’est-ce qu’une balise « alt » ?
+
+c'est une description textuelle ajoutée aux images pour les comprendres si elle ne se charge pas
+
 119.	Qu’est-ce que la balise « meta description » ?
+
+c'est une courte description HTML d'une page web, elle résume le contenu de la page et incite les utilisateurs à cliquer sur le lien
+
 120.	Qu’est-ce que le « nofollow » en SEO ?
+
+c'est une façon de rediriger des utilisateurs avec un lien payant ou non fiable sans perdre de valeur de referencement
+
 121.	Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
+
+Un contenu bien conçu et utile permet aux moteurs de recherche de mieux comprendre le site, d'améliorer sa visibilité et de d'attirer plus de visiteurs
+
 122.	Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
+
+Les balises de titre permettent de structurer et de hiérarchiser le contenu pour le rendre plus lisible, à la fois pour les utilisateurs et les moteurs de recherche afin d'améliorer le référencement et l'accessibilité
+
 123.	Quelle est la recommandation pour les URL d'un site web bien référencé ?
 124.	Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
 125.	Qu'est-ce que l'optimisation des images pour le référencement ?
