@@ -686,27 +686,91 @@ Un contenu bien conçu et utile permet aux moteurs de recherche de mieux compren
 Les balises de titre permettent de structurer et de hiérarchiser le contenu pour le rendre plus lisible, à la fois pour les utilisateurs et les moteurs de recherche afin d'améliorer le référencement et l'accessibilité
 
 123.	Quelle est la recommandation pour les URL d'un site web bien référencé ?
+
+être courtes, descriptives, inclure des mots-clés pertinents
+
 124.	Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
+
+c'est l'ensemble des liens hypertextes qui relient les pages d'un même site
+
 125.	Qu'est-ce que l'optimisation des images pour le référencement ?
+
+reduire la taille, adaptés le format et ajouter des attributs alt
+
 126.	Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+
+c'est un fichier XML qui liste toutes les pages importantes d'un site web,  il aide les moteurs de recherche à explorer et indexer efficacement le contenu du site
 
 ## Gestion de projets - DevOps
 127.	Qu’est-ce que la gestion de projet ?	
+
+ Planifier, organiser, coordonner et superviser les ressources et les tâches
+
 128.	Qu’est-ce qu’une méthode Agile de gestion de projet ? 
+
+Collaboration continue avec le client, adaptation aux changement
+
 129.	Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
+
+c'est une technique de gestion des priorités qui classe les exigences d'un projet en quatre catégories : Must have (indispensables), Should have (souhaitables), Could have (facultatives), et Won't have (non prioritaires pour l'instant).
+
 130.	A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
+
+MVP (Minimum Viable Product) sert à développer un produit avec les fonctionnalités minimales nécessaires pour répondre aux besoins de base des utilisateurs
+
+developpement rapide, produit simplifié, focus fonctionnalités essentielles
+
 131.	Qu’est-ce que la planification itérative ?
+
+ça consiste à diviser un projet en cycles, permettant d'ajuster et d'améliorer le produit à chaque étape en fonction des retours et des évolutions
+
 132.	Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+
+SCRUM, Kanban, XP (extreme programming)
+
 133.	Qu’est-ce qu’une réunion de revue de projet ?
+
+Un moment formel où l'équipe présente l'avancement du projet
+
 134.	Qu’est-ce qu’un livrable dans un projet ? 
+
+produit à la fin d'une étape (document, maquette etc)
+
 135.	Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
+
+Transparence : Visibilité sur le travail, etat du projet etc
+
+Inspection : examiner le produit et les résultats, détecter des problèmes
+
+Adaptation : ajustement son plan par rapport à l'inspection
+
 136.	Qu’est-ce que le DevOps et quel est son objectif principal ?
+
+c'est une méthode de travail qui réunit les développeurs et les équipes techniques pour automatiser et améliorer la création, le test et le déploiement des applications, afin de livrer plus vite et avec moins d’erreurs.
+
 137.	Qu’est-ce que l’intégration continue ? 
+
+c'est une pratique qui consiste a fusionner fréquemment le code des développeurs dans un dépôt central ou il est testé pour détecter les erreurs rapidement
+
 138.	Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+
+Docker est un outil qui permet de créer, déployer et exécuter des applications dans des conteneurs légers, il garantit que les applications fonctionnent de manière identique dans tous les environnements,
+
 139.	Qu’est-ce qu’un test unitaire ? 
+
+c'est un test automatisé qui vérifie qu’une petite partie d’un programme
+
 140.	Quelle est l'unité de code testée lors d'un test unitaire ?
+
+une fonction, une méthode ou un composant isolé(classe,module etc)
+
 141.	Quelles sont les caractéristiques d'un bon test unitaire ?
+
+Indépendant, rapide, précis, répétable, et facile à comprendre
+
 142.	Qu'est-ce qu'une assertion dans un test unitaire ?
+
+C'est une instruction qui vérifie si le résultat d'une opération ou d'une fonction correspond à la valeur attendue.
  
 ## English
 1)	What does JavaScript enable you to do on a website ?
